@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ru">
+   <head>
+      <script src="https://kit.fontawesome.com/e0071ebe69.js" crossorigin="anonymous"></script>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="img/62853candle_109320 (1).png">
+
+      <link rel="stylesheet" type="text/css" href="style.css">
+   <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+      <!-- <script src="/diplom.js"></script> -->
+
+      <title>Дипломный проект</title>
+
+   </head>
+   <body>
+      <header>
+         <nav class="navbar text-navbar justify-content-around">
+            <a class="nav-link text-light" href="http://a0528176.xsph.ru/diploma/index.html"><span class="classHover">Главная</span></a>
+            <a class="nav-link text-light" href="http://a0528176.xsph.ru/diploma/links.html"><span class="classHover">Полезные ссылки</span></a>
+            <a class="nav-link text-light" href="http://a0528176.xsph.ru/old/JS/coffee-machine.html"><span class="classHover">Кофе-машина</span></a>
+            <a class="nav-link text-light disabled" href="#"><span class="classHover">ТЕКСТ</span></a>
+            <a class="nav-link text-light" href="http://a0528176.xsph.ru/diploma/hometasks.html"><span class="classHover">Задания</span></a>
+            <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+            <a class="nav-link text-light classHover" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="classHover">Форма обратной связи</span><span href="email:grimaryvarz@gmail.com" id="iconLink" <i class="fas fa-envelope-open-text fa-lg mailIcon ml-2"></i></span> </a>
+            <div class="dropdown-menu position-absolute" style="width: 100%;" aria-labelledby="navbarDropdown">
+               <p class="" style="text-align:center">Отправь себе сообщение с этого сайта :)<p>
+               <div class="writemeForm">
+                  <!-- <form action="mailto:grimaryvarz@gmail.com"> -->
+                  <form action="sendMail.php" method="">
+                     <div class="form-group">
+                        <input type="text" class="form-control" name="user_name" placeholder="Name">
+                     </div>
+                     <div class="form-group">
+                        <input type="email" class="form-control" name="email" placeholder="E-mail">
+                     </div>
+                     <div class="form-group">
+                        <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                     </div>
+                     <div class="form-group">
+                        <input type="submit" class="form-control btn btn-success">
+                     </div>
+                  </form>
+
+               <a class="dropdown-item disabled" href="#">Хотите зарегистрироваться?</a>
+               <a class="dropdown-item disabled" href="#">Авторизация</a>
+            </div>
+            </li>
+         </ul>
+      </nav>
+      <div class="pos-f-t">
+         <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4">
+               <h4 class="text-white">Выполненные работы</h4>
+               <span class="text-muted">
+               <a class="nav-link text-light" href="#">html/css</a>
+               <a class="nav-link text-light" href="#">Bootstrap</a>
+               <a class="nav-link text-light" href="#">Java Script</a>
+               <a class="nav-link text-light" href="#">PHP</a>
+               <a class="nav-link text-light" href="http://a0528176.xsph.ru/index.html">проект Aroma</a>
+               </span>
+            </div>
+         </div>
+         <nav class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler buttonActive" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+               aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+               <img src="img/depositphotos_29353891-stock-photo-3d-small-people-with-a.jpg" width="50px"><span class="navbar-toggler-icon ml-2"></span>
+            </button>
+                  <p class="name">Итоговый проект по Frontend-разработке</p>
+         </nav>
+      </div>
+   </header>
+
+      <div class="container content"> <!--Контейнер для всего контента-->
+         <div class="row">
+            <div class="col col-sm-4 col-md-5 col-lg-6"> <!--колонка с изображением-->
+               <img class="img-fluid img1 d-block float-lg-right mr-lg-5 mt-lg-5" src="img/cfdd0a150752feb8520dc9714b451de92ab6713eb972015d021e55e84e2e1c3f.png">
+            </div> 
+            <div class="col col-sm-8 col-md-7 col-lg-6"> <!--Правая большая колонка с текстом о проекте-->
+               <div class="right-part-text pt-3">
+                  <h2 class="zagolovok"> Общая информация о данном проекте </h2>
+                  <ul style="padding-top: 20px">
+                     <li>выполнен с использованием гипертекстового языка разметки HTML и инструментов Bootstrap версии 4.6, каскадных таблиц стилей CSS, а также языка программирования JavaScript</li><br>
+                     <li>стили вынесены в отдельный файл .css</li><br>
+                     <!-- <li>JS скрипты вынесены в отдельный файл .js</li><br> -->
+                     <li>архив с файлами проекта "diploma.zip" загружен на ресурс dropmefiles.com</li><br>
+                     <li>файлы исходных кодов проекта размещены в репозитории "Diploma" на сервисе GitHub</li><br>
+                     <li>в выпадающем меню находятся ссылки на выполненные мной в процессе обучения практические работы</li><br>
+
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <footer>
+         <div class="footer">
+         <p class="footerText"> Copyright<sup> &#169 </sup><sub>&#9825</sub>GriM<sup>&#9829</sup></p>
+         </div>
+      </footer>  
+   <!-- Optional JavaScript; choose one of the two! -->
+   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"  integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+   </body>
+</html>
